@@ -4,7 +4,7 @@ namespace Theme\Children;
 // directly acces denied
 defined('ABSPATH') || exit;
 
-class WP_Theme_Child{
+final class WP_Theme_Child{
 
     // create evil
     private static $instance;
